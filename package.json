@@ -11,9 +11,8 @@
     "lint": "eslint",
     "start": "node index.js",
     "build": "webpack --mode production"
-  }
-
-  ,"name": "wix-project",
+  },
+  "name": "wix-project",
   "version": "1.0.0",
   "description": "WIX Integration Project",
   "main": "index.js",
