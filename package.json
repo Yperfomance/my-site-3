@@ -8,6 +8,17 @@
   "scripts": {
     "postinstall": "wix sync-types",
     "dev": "wix dev",
-    "lint": "eslint ."
+    "lint": "eslint",
+    "start": "node index.js",
+    "build": "webpack --mode production"
   }
-}
+
+  ,"name": "wix-project",
+  "version": "1.0.0",
+  "description": "WIX Integration Project",
+  "main": "index.js",
+  "files": [
+    "public/styles.css",
+    "public/script.js"
+  ]
+  }
